@@ -18,7 +18,7 @@ pip install matplotlib seaborn
 4. Qualquer célula viva com dois ou três vizinhos vivos continua no mesmo estado para a próxima geração.
 
 ### Como usar:
-**1. Definição do tabuleiro:** ao rodar o código, irá ser pedido que o usuário entre com o valor do número de linhas (x) e colunas (y).
+**1. Definição do tabuleiro:** ao rodar o código, será requisitado que o usuário entre com o valor do número de linhas (x) e colunas (y).
 
 **2. Preenchimento do tabuleiro:** o usuário tem duas opções: a primeira é inserir manualmente os valores a partir das coordenadas de linhas e colunas, a segunda opção é o preenchimento aleatório.
 - Observação¹: se optar pelo preechimento manual, o usuário deverá colocar o número de células vivas que deseja colocar no tabuleiro (este número não pode ser maior que o número     de casas que o tabuleiro possui, anteriormente definido). 
