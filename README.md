@@ -23,6 +23,7 @@ pip install matplotlib seaborn
 **2. Preenchimento do tabuleiro:** o usuário tem duas opções: a primeira é inserir manualmente os valores a partir das coordenadas de linhas e colunas, a segunda opção é o preenchimento aleatório.
 - Observação¹: se optar pelo preechimento manual, o usuário deverá colocar o número de células vivas que deseja colocar no tabuleiro (este número não pode ser maior que o número     de casas que o tabuleiro possui, anteriormente definido). 
 - Observação²: após definir quantas células vivas entraram no jogo, será pedido as coordenadas de linha (x) e coluna (y) que não podem exceder as dimensões do tabuleiro.
+
 2.1. Caso opte pelo preenchimento aleatório, o tabuleiro se preencherá automaticamente com valores aleatórios.
 
 **3. Escolha da visualização do resultado do jogo:** o usuário primeiramente deve definir quantas rodadas (quantas gerações) o jogo terá por meio do número de interações. Posteriormente, escolherá se irá querer ver o resultado por meio de um plot (utilizando o pyplot), e depois irá escolher se irá salvar os resultados por meio de um arquivo .gif, e se optar por salvar, deverá entrar com um nome de arquivo (não esqueça de colocar o ".gif" após o nome para salvar no formato).
